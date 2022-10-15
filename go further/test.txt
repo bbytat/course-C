@@ -1,0 +1,16 @@
+hi devsENING MODE :
+
+    r : read only, the file must be created first
+
+    w : write only, if the file doesn't exist, it'll be created  
+
+    a : add mode, you can write in the file starting from the end of it, if the file doesn't exist it will
+        be created, this add mode can be usefull if you only want to add some comments at the end of the fike
+
+    a+: added read/write at the end, you write and read text from the end of the file, if the file doesn't 
+        exist, it will be created.
+
+    r+: read and write, the file must be created first
+
+    w+: read and write, with removal of the content beforehand, the file has been emptied of its contents,
+        if the file doesn't exist, it will be created
